@@ -10,7 +10,7 @@ terraform {
 resource "statsig_gate" "example_gate" {
   name        = "example_gate"
   description = "A short description of what this Gate is used for."
-  is_enabled  = false
+  is_enabled  = true
   id_type     = "userID"
   rules {
     name            = "All Conditions"
